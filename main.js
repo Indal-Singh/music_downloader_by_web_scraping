@@ -1,7 +1,9 @@
 const express = require("express");
+const cors = require('cors');
 const {appleSongsMusicDownloader,spotifySongsMusicDownloader} = require('./controllere');
 
 const app = express();
+app.use(cros());
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
