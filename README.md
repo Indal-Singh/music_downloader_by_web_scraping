@@ -28,7 +28,6 @@ git clone https://github.com/Indal-Singh/music_downloader_by_web_scraping
 cd music_downloader_by_web_scraping
 npm install
 ```
-
 ## API Endpoints
 
 The application has the following API endpoints:
